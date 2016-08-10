@@ -10,6 +10,7 @@
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" version="1.1.0" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" />
@@ -116,5 +117,3 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 </widget>
-
-<gap:plugin name="com.phonegap.plugins.barcodescanner" version="1.1.0" />
