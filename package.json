@@ -1,12 +1,12 @@
 {
   "name": "phonegap-template-hello-world",
-  "version": "4.0.2",
-  "description": "> A Hello World template built with PhoneGap",
+  "version": "0.0.1",
+  "description": "> A client app for ponto.compjunior.com.br",
   "repository": {
     "type": "git",
-    "url": "https://github.com/phonegap/phonegap-app-hello-world.git"
+    "url": "https://github.com/brenohq/appPonto"
   },
-  "author": "PhoneGap Team",
+  "author": "Breno Henrique de Lima Freitas",
   "license": "Apache-2.0.0",
   "keywords": [
     "ecosystem:phonegap",
@@ -15,7 +15,7 @@
     "phonegap:template"
   ],
   "bugs": {
-    "url": "https://github.com/phonegap/phonegap-app-hello-world/issues"
+    "url": "https://github.com/brenohq/appPonto/issues"
   },
-  "homepage": "https://github.com/phonegap/phonegap-app-hello-world"
+  "homepage": "https://github.com/brenohq/appPonto"
 }
