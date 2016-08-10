@@ -9,8 +9,25 @@
         <title>AppPonto</title>
     </head>
     <body>
+
+        <h1>AppPonto</h1>
+        <h2>CompJunior - Controle de Ponto</h2>
+
+        <form class="" id="mensagemForm" type="submit" method="postf">
+          <div class="input-field col s12">
+            <textarea name="text" id="message" class="materialize-textarea">Adicionar Observação (Opcional)</textarea>
+          </div>
+        </form>
         <p>
-            <button id="startScan">Start Scan</button>
+            <button id="startScan">Scan QR Code</button>
+        </p>
+
+        <p>
+            <button id="entrada">Entrada</button>
+        </p>
+
+        <p>
+            <button id="saida">Saida</button>
         </p>
 
         <div id="results"></div>
