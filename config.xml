@@ -12,7 +12,7 @@
     <preference name="android-minSdkVersion" value="14" />
     <gap:plugin name="com.phonegap.plugins.barcodescanner" version="1.1.0" />
 
-    <icon src="res/icon.png" />
+    <icon src="img/icon.png" />
 
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
