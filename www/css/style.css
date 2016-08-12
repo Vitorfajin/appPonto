@@ -1,0 +1,25 @@
+body{
+  background-color: #00A8C1;
+  color: white;
+}
+
+h1{
+  font-size: 5em;
+}
+
+h2{
+  font-size: 4em;
+  text-align: center;
+}
+
+form{
+  text-align: center;
+}
+
+.startScan{
+  margin-top: 10%;
+}
+
+.entradaSaida{
+  margin-top: 20%;
+}
