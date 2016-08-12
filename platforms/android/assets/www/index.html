@@ -1,62 +1,38 @@
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="format-detection" content="telephone=no" />
-  <meta name="msapplication-tap-highlight" content="no" />
-  <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" >
+        <title>AppPonto</title>
+    </head>
+    <body>
 
+        <h1>AppPonto</h1>
+        <h2>CompJunior - Controle de Ponto</h2>
 
-  <!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
-  <link rel="stylesheet" type="text/css" href="./css/materialize.min.css" />
-  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <form class="" id="mensagemForm" type="submit" method="postf">
+          <div class="input-field col s12">
+            <textarea name="text" id="message" class="materialize-textarea">Adicionar Observação (Opcional)</textarea>
+          </div>
+        </form>
+        <p>
+            <button id="startScan">Scan QR Code</button>
+        </p>
 
-  <title>AppPonto</title>
-</head>
+        <p>
+            <button id="entrada">Entrada</button>
+        </p>
 
-<body>
+        <p>
+            <button id="saida">Saida</button>
+        </p>
 
-  <div class="container">
-    <div class="row">
-      <h1>AppPonto</h1>
-      <h2>CompJunior - Controle de Ponto</h2>
-    </div>
-
-    <div class="row">
-      <form class="" id="mensagemForm" type="submit" method="postf">
-        <div class="input-field col s12">
-          <textarea name="text" id="message" class="materialize-textarea">Adicionar Observação (Opcional)</textarea>
-        </div>
-      </form>
-    </div>
-
-    <div class="row">
-      <div class="col s12 m12 center">
-        <button class="waves-effect waves-light btn startScan center" id="startScan">Scan QR Code</button>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col s12 m12 center entradaSaida">
-        <button class="waves-effect waves-light btn" id="btnEntrada">Entrada</button>
-        <button class="waves-effect waves-light btn disabled" id="btnSaida">Saida</button>
-      </div>
-    </div>
-
-    <div class="row">
-      <div id="results"></div>
-    </div>
-
-  </div>
-
-  <script type="text/javascript" src="cordova.js"></script>
-  <script type="text/javascript" src="./js/index.js"></script>
-
-  <!-- Jquery -->
-  <script src="./js/jquery-1.12.3.js"></script>
-
-  <!-- Materialize JS -->
-  <script src="./js/materialize.min.js"></script>
-
-</body>
+        <div id="results"></div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
 </html>
