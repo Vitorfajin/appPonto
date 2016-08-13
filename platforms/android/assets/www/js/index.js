@@ -10,13 +10,17 @@ function startScan() {
   cordova.plugins.barcodeScanner.scan(
     function (result) {
       var s = "Result: " + result.text + "<br/>" +
-      "Format: " + result.format + "<br/>" +
       "Cancelled: " + result.cancelled;
-      resultDiv.innerHTML = s;
+      //resultDiv.innerHTML = s;
+
     },
     function (error) {
       alert("Scanning failed: " + error);
     }
   );
-    
+  document.getElementById('caixa').style.display = 'inline';
+  document.getElementById('startScan').style.height = "64px";
+  document.getElementById('startScan').style.width = "64px";
+  document.getElementById('startScan').style.cssFloat = "left";
+
 }

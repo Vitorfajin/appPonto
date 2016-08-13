@@ -1,12 +1,48 @@
+h1, h2, form{
+  font-family: 'Montserrat', sans-serif;
+}
+
+form{
+  color: #95a5a6;
+}
+
 body{
   background-color: #00A8C1;
   color: white;
 }
 
 h1{
-  font-size: 5em;
+  font-size: 4em;
 }
 
-h2{
-  font-size: 4em;
+h3{
+  font-size: 2em;
+}
+
+.imgQrCode{
+  margin-top: 30%;
+}
+
+.btnEntrada{
+  background-color: #8CBE42;
+}
+
+.btnSaida{
+  background-color: #CC1F3B;
+}
+
+.btnEntrada:hover{
+  background-color: #8CBE42;
+}
+
+.btnSaida:hover{
+  background-color: #CC1F3B;
+}
+
+.observacao .prefix.active {
+    color:  #00A8C1;
+}
+
+.botoes{
+  margin-top: 20%;
 }
